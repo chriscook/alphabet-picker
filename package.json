@@ -17,10 +17,7 @@
     },
     "description": "An A to Z picker.",
     "keywords": [
-        "keyboard",
-        "touch",
-        "text",
-        "input"
+        "alphabet"
     ],
     "homepage": "http://chris-cook.co.uk/",
     "files": [

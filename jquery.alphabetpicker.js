@@ -1,6 +1,6 @@
 (function ($) {
     
-    "use strict";
+    'use strict';
     
     $.fn.alphabetPicker = function (options) {
     
@@ -19,7 +19,7 @@
             $letters.css('textTransform', 'uppercase');
         }
         
-        $alphabetTriggers.click(function(e) {
+        $alphabetTriggers.click(function() {
             var p = $(this).offset();
             $alphabetPicker.css('top', p.top + $(this).height()).css('left', p.left).fadeToggle('fast');
         });
