@@ -29,6 +29,8 @@ Additional settings can be used to customise the picker, and should be added as 
 + `hash` toggles the sending of the letter as a hash rather than a parameter. __N.B.__ this will only append the letter to the URL, and will not change the page. The _hashchange_ plugin is recommended if you want to access the hashchange event (default `false`).
 + `parameter` allows you to change the name by which the letter is sent to the destination page (default `'letter'`).
 + `uppercase` allows you to make the letters uppercase when displayed. They will still be sent to the destination page as lowercase. (default `false`).
++ `topPosition` sets the `top` CSS property for the picker (default `20%`).
++ `leftPosition` sets the `left` CSS property for the picker (default `30%`).
 
 An example of these in practice:
 

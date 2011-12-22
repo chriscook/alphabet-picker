@@ -10,7 +10,9 @@
             destination       : 'demo.html',
             hash              : false,
             parameterName     : 'letter',
-            uppercase         : false
+            uppercase         : false,
+            topPosition       : '20%',
+            leftPosition      : '30%'
         }, options),
             $alphabetTriggers = this,
             $alphabetPicker   = $('#azp-container'),
@@ -20,9 +22,10 @@
             $letters.css('textTransform', 'uppercase');
         }
         
+        $alphabetPicker.css('top', settings.topPosition).css('left', settings.leftPosition);
+        
         $alphabetTriggers.click(function() {
-            var p = $(this).offset();
-            $alphabetPicker.css('top', p.top + $(this).height()).css('left', p.left).fadeToggle('fast');
+            $alphabetPicker.fadeToggle('fast');
         });
         
         $alphabetPicker.on('click', 'li', function() {
