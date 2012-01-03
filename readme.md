@@ -6,7 +6,7 @@ Version 0.1.0
 
 ### Introduction
 
-__Alphabet Picker__ is a _jQuery_ plug-in which launches a simple alphabet picker, which when clicked sends the user to a particular page, passing the letter as a parameter.
+__Alphabet Picker__ is a _jQuery_ plug-in which launches a simple alphabet picker, which when clicked sends the user to a particular page, passing the letter as a parameter or in the URL hash.
 
 ### How to use it
 
@@ -26,11 +26,11 @@ A demo is available in demo.html.
 
 Additional settings can be used to customise the picker, and should be added as a parameter after the destinaion option:
 
-+ `hash` toggles the sending of the letter as a hash rather than a parameter. __N.B.__ this will only append the letter to the URL, and will not change the page. The _hashchange_ plugin is recommended if you want to access the hashchange event (default `false`).
-+ `parameter` allows you to change the name by which the letter is sent to the destination page (default `'letter'`).
-+ `uppercase` allows you to make the letters uppercase when displayed. They will still be sent to the destination page as lowercase. (default `false`).
-+ `topPosition` sets the `top` CSS property for the picker (default `20%`).
-+ `leftPosition` sets the `left` CSS property for the picker (default `30%`).
++ `hash`: Whether the letter is sent to the destination page as a URL hash or a parameter. __N.B.__ this will only append the letter to the URL, and will not change the page. The _hashchange_ plugin is recommended if you want to access the hash change event (default `false`; must be boolean).
++ `parameter`: The name by which the letter is sent to the destination page (default `'letter'`; must be a string).
++ `uppercase`: Whether or not the letters should be uppercase when displayed on the picker. They will still be sent to the destination page as lowercase (default `false`; must be boolean).
++ `topPosition`: The `top` CSS property of the picker (default `20%`; must be a string suitable for CSS, i.e. one ending in a measurement unit).
++ `leftPosition`: The `left` CSS property of the picker (default `30%`; must be a string suitable for CSS, i.e. one ending in a measurement unit).
 
 An example of these in practice:
 
