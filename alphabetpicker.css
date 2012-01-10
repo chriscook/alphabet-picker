@@ -2,7 +2,7 @@
 
 #azp-container {
     display: none;
-    position: absolute;
+    position: fixed;
     padding: 1%;
 }
 
