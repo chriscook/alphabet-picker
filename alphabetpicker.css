@@ -1,46 +1,46 @@
-/*-----[Alphabet Picker Structure]--------------------------------------*/
+/*-----[Alphabet Picker structure]--------------------------------------------*/
 
 #azp-container {
-    display: none;
-    position: fixed;
-    padding: 1%;
+	display: none;
+	position: fixed;
+	padding: 1%;
 }
 
-    #azp-container > li {
-        float: left;
-        width: 6.69%;
-        height: 3em;
-        margin: 0.5%;
-        list-style-type: none;
-        text-align: center;
-        line-height: 3em;
-        cursor: pointer;
-        -webkit-user-select: none;
-         -khtml-user-select: none;
-           -moz-user-select: -moz-none;
-            -ms-user-select: none;
-                user-select: none;
-    }
-    
-    #azp-container > li.azp-breaker {
-        clear: left;
-    }
-    
-    #azp-container > li:hover {  
-        position: relative;
-        top: 1px;
-    }
-    
-/*-----[Customisable styles]--------------------------------------------*/
+	#azp-container > li {
+		float: left;
+		width: 6.69%;
+		height: 3em;
+		margin: 0.5%;
+		list-style-type: none;
+		text-align: center;
+		line-height: 3em;
+		cursor: pointer;
+		-webkit-user-select: none;
+		 -khtml-user-select: none;
+		   -moz-user-select: -moz-none;
+			-ms-user-select: none;
+				user-select: none;
+	}
+
+	#azp-container > li.azp-breaker {
+		clear: left;
+	}
+
+	#azp-container > li:hover {
+		position: relative;
+		top: 1px;
+	}
+
+/*-----[Customisable styles]--------------------------------------------------*/
 
 #azp-container {
-    background: #EEE;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5%;
-    width: 48%;
+	background: #EEE;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 5%;
+	width: 48%;
 }
 
-    #azp-container > li {
-        background: #DDD;
-        border-radius: 10%;
-    }
+	#azp-container > li {
+		background: #DDD;
+		border-radius: 10%;
+	}

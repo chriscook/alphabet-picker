@@ -2,41 +2,42 @@
 
 <html lang="en">
 
-    <head>
-        <title>Alphabet picker</title>
-        <link rel="stylesheet" type="text/css" href="alphabetpicker.css">
-        <style>
-            html {
-                font-family: Calibri, Arial, sans-serif;
-            }
-            
-            #azp-trigger {
-                font-size: 2em;
-                width: 3.1em;
-                height: 2em;
-                padding-left: 0.5em;
-                border: 1px solid #111;
-                background: #DDD;
-                line-height: 2em;
-                cursor: pointer;
-            }
-        </style>
-    </head>
-    
-    <body>
-        
-        <div id="azp-trigger">A to Z</div>
-        
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script src="jquery.alphabetpicker.js"></script>
-        <script>
-            $(document).ready(function() {
-                $('div#azp-trigger').alphabetPicker({
-                    destination : 'demo.html'
-                });
-            });
-        </script>
-        
-    </body>
-    
+	<head>
+		<meta charset="utf-8">
+		<title>Alphabet Picker demo</title>
+		<link rel="stylesheet" type="text/css" href="alphabetPicker.css">
+		<style>
+			html {
+				font-family: Calibri, Arial, sans-serif;
+			}
+
+			#azp-trigger {
+				font-size: 2em;
+				width: 3.1em;
+				height: 2em;
+				padding-left: 0.5em;
+				border: 1px solid #111;
+				background: #DDD;
+				line-height: 2em;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="azp-trigger">A to Z</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="jquery.alphabetPicker.js"></script>
+		<script>
+			$(function () {
+				$('div#azp-trigger').alphabetPicker({
+					destination : 'demo.html'
+				});
+			});
+		</script>
+
+	</body>
+
 </html>
