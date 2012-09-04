@@ -44,10 +44,6 @@ An example of these in practice:
 
 `alphabetPicker.css` can also be edited to customise the picker's design. The first section, "Alphabet Picker Structure" should be mostly left alone. The second section contains definitions for colour and picker position.
 
-### Compatibility
-
-+ Firefox 9
-
 ### Author and Acknowledgements
 
 + Written by [Chris Cook](http://chris-cook.co.uk)
