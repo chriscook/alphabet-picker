@@ -14,9 +14,11 @@ __Alphabet Picker__ is a _jQuery_ plug-in which launches a simple alphabet picke
 2. Create the element that will trigger the picker.
 3. Add the following _jQuery_ to your page, to be executed on load:
 
+```javascript
 	$('.azp-trigger').alphabetPicker({
 		destination     : 'demo.html'
 	});
+```
 
 ...where `.azp-trigger` is a selector for the elements you would like to trigger the picker, and `demo.html` is whatever page you want the buttons to lead to.
 
@@ -34,11 +36,13 @@ Additional settings can be used to customise the picker, and should be added as 
 
 An example of these in practice:
 
+```javascript
 	$('.azp-trigger').onScreenKeyboard({
 		'destination' : 'list.html',
 		'parameter' : 'alpha',
 		'uppercase' : true
 	});
+```
 
 `jquery.alphabetPicker.js` contains the HTML for the picker at the top (although it is compressed). As long as class names remain the same, this can be changed however much you like. Keep in mind that the character passed to the destination page is taken directly from the contents of the `li` element for the pressed key.
 
