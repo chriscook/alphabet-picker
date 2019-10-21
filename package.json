@@ -17,7 +17,7 @@
 		}
 	],
 	"dependencies": {
-		"jquery": "1"
+		"jquery": "3"
 	},
 	"description": "An A to Z picker.",
 	"keywords": [
